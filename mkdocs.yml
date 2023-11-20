@@ -1,1 +1,3 @@
-
+site_name: Fluxoscript
+nav:
+  - -Création du site: site.md
