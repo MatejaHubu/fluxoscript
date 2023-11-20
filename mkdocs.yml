@@ -1,3 +1,4 @@
 site_name: Fluxoscript
+site_url: https://matejahubu.github.io/fluxoscript/
 nav:
   - -Création du site: site.md
