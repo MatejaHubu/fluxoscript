@@ -1,10 +1,24 @@
-/* Style pour le bouton "CONTACT" */
+/* styles_contact.css */
+
 .contact-button {
-  background-color: #ff0000; /* Couleur de fond rouge */
-  color: #fff; /* Couleur du texte blanc */
-  padding: 10px 20px; /* Marge intérieure pour l'espacement */
-  border: none; /* Pas de bordure */
-  border-radius: 5px; /* Coins arrondis */
-  cursor: pointer; /* Curseur de souris au survol */
-  text-decoration: none; /* Supprimer la décoration du lien */
+  display: inline-block;
+  margin: 8px;
+}
+
+.contact-container {
+  background-color: #ff0000; /* Couleur rouge */
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container i {
+  margin-right: 8px;
+  color: white;
+}
+
+.contact-text {
+  color: white;
+  font-weight: bold;
 }
