@@ -1,0 +1,10 @@
+/* Style pour le bouton "CONTACT" */
+.contact-button {
+  background-color: #ff0000; /* Couleur de fond rouge */
+  color: #fff; /* Couleur du texte blanc */
+  padding: 10px 20px; /* Marge intérieure pour l'espacement */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur de souris au survol */
+  text-decoration: none; /* Supprimer la décoration du lien */
+}
