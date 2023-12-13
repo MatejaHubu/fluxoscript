@@ -30,8 +30,12 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
-#maps {
-  text-align : center;
+#mapsContainer {
+      width: 600px; /* Ajustez la largeur du conteneur selon vos besoins */
+      height: 450px; /* Ajustez la hauteur du conteneur selon vos besoins */
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
 </head>
@@ -127,7 +131,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Laissez-nous des commentaires :</p>
-  <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.761221349411!2d-83.00457472345667!3d39.969090982761834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f2f3a888a7b%3A0x920f9c6774866212!2s328%20N%20High%20St%2C%20Columbus%2C%20OH%2043215%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1702476591961!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   <div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chartres, FR</p>
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Téléphone : +33 7 85 26 47 45</p>
@@ -145,7 +148,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </p>
     </form>
     <!-- Image of location/map -->
-      
+    <div id="mapsContainer">
+      <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.761221349411!2d-83.00457472345667!3d39.969090982761834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f2f3a888a7b%3A0x920f9c6774866212!2s328%20N%20High%20St%2C%20Columbus%2C%20OH%2043215%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1702476591961!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </div>
 </div>
 
