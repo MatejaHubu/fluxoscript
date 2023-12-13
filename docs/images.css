@@ -1,6 +1,7 @@
 header {
       text-align: center;
       padding: 25px 0; /* Ajustez la valeur selon vos besoins */
+      margin-bottom: 20px;
 }
 #logo {
       max-width: 25%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
