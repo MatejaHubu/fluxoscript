@@ -11,6 +11,16 @@
   gtag('js', new Date());
 
   gtag('config', 'G-KV0FCY5WXB');
+  document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+  });
+
+  document.onkeydown = function (e) {
+        if (e.ctrlKey &&
+            (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 83 || e.keyCode === 123)) {
+            return false;
+       }
+  };
 </script>
 <title>FluxoLearn</title>
 <meta charset="UTF-8">
